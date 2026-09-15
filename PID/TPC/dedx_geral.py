@@ -287,7 +287,7 @@ def main():
     h_pt = criar_th1_do_numpy(
         pt,
         "h_pt",
-        f"Distribuição de p_{{T}};p_{{T}} (GeV/c);Contagens",
+        f"Distribuicao de p_{{T}};p_{{T}} (GeV/c);Contagens",
         0,
         20
     )
@@ -300,7 +300,7 @@ def main():
     h_dedx = criar_th1_do_numpy(
         dedx,
         "h_dedx",
-        "Distribuição de dE/dx;dE/dx (u.a.);Contagens",
+        "Distribuicao de dE/dx;dE/dx (u.a.);Contagens",
         0,
         200
     )
